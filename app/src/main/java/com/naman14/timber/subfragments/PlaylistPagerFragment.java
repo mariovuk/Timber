@@ -51,8 +51,7 @@ public class PlaylistPagerFragment extends Fragment {
 
     private static final String ARG_PAGE_NUMBER = "pageNumber";
     int[] foregroundColors = {R.color.pink_transparent, R.color.green_transparent, R.color.blue_transparent, R.color.red_transparent, R.color.purple_transparent};
-    private int pageNumber, songCountInt;
-    private int foregroundColor;
+    private int pageNumber, songCountInt, foregroundColor;
     private long firstAlbumID = -1;
     private Playlist playlist;
     private TextView playlistame, songcount, playlistnumber, playlisttype;
